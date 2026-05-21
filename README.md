@@ -13,14 +13,24 @@ A custom Home Assistant integration that pulls your [QuitNow](https://quitnowapp
 
 ## Installation
 
+### HACS (Recommended)
+
+1. Open **HACS** in Home Assistant
+2. Click **Custom repositories** (top right menu)
+3. Paste this URL: `https://github.com/georgehanna1993/ha-quitnow`
+4. Select **Integration** as the category
+5. Click **Create**
+6. Search for **QuitNow** in HACS
+7. Click **Install**
+8. Restart Home Assistant
+
 ### Manual
 
-1. Copy the `custom_components/quitnow` folder into your Home Assistant `custom_components` directory.
-2. Restart Home Assistant.
-
-### HACS
-
-Coming soon.
+1. Copy the entire folder to your Home Assistant installation:
+   ```
+   custom_components/quitnow/
+   ```
+2. Restart Home Assistant
 
 ## Setup & Configuration
 

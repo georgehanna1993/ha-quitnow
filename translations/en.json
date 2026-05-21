@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sign In to QuitNow",
+        "description": "Enter your QuitNow **nickname** and **access token**.\n\n**How to find your Nickname:**\n1. Open the QuitNow app\n2. Go to **Profile** (bottom right or menu)\n3. Your nickname is at the top\n\n**How to find your Access Token:**\n1. Open [QuitNow](https://quitnow.app) in your browser\n2. Make sure you're logged in\n3. Open **Chrome DevTools** (Ctrl+Shift+I or F12)\n4. Go to **Network** tab\n5. Refresh the page\n6. Look for a request to `loginV2?nick=...&access=...`\n7. Click on it, then go to **Headers** section\n8. Look at the request URL and find the `access=` parameter\n9. Copy the long string after `access=` (that's your token)",
+        "data": {
+          "nick": "Nickname",
+          "token": "Access Token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect. Please check your nickname and token are correct."
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  }
+}

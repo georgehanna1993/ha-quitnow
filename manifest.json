@@ -1,0 +1,11 @@
+{
+  "domain": "quitnow",
+  "name": "QuitNow",
+  "version": "0.1.0",
+  "documentation": "https://github.com/georgehanna1993/ha-quitnow",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@georgehanna1993"],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}

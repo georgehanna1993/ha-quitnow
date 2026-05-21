@@ -1,0 +1,8 @@
+{
+  "name": "QuitNow",
+  "content_in_root": false,
+  "domains": ["sensor"],
+  "documentation": "https://github.com/georgehanna1993/ha-quitnow",
+  "homeassistant": "2021.12.0",
+  "iot_class": "cloud_polling"
+}

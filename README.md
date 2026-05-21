@@ -2,6 +2,17 @@
 
 A custom Home Assistant integration that pulls your [QuitNow](https://quitnowapp.com) stats into Home Assistant as sensors.
 
+## Why This Integration?
+
+Staying smoke-free is a journey that requires daily motivation. This integration brings your QuitNow stats right into your Home Assistant dashboard so you can see at a glance:
+
+- **How many days you've been smoke-free** — A constant reminder of your progress
+- **How much money you've saved** — Watch your savings grow with every day
+- **How many cigarettes you've avoided** — The cumulative impact of your effort
+- **How many days of life you've won back** — Your health improvements in perspective
+
+Use these sensors in automations, templates, and dashboards to keep your motivation front and center. Every time you look at your Home Assistant dashboard, you'll be reminded of how far you've come.
+
 ## Sensors
 
 | Sensor | Unit | Description |
